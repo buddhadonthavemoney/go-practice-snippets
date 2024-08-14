@@ -1,1 +1,1 @@
-API to take a JSON body and return the return inverted key value pair
+API to take a JSON body and return the inverted key value pair
