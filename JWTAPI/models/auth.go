@@ -18,11 +18,7 @@ type Claims struct {
 }
 
 func (creds *Credentials)CheckCreds() bool{
-	if creds.Email == "buddha@gautam.com" && creds.Password == "Bhandina"{
-		return true
-	}else{
-		return false
-	}
+	return creds.Email == "buddha@gautam.com" && creds.Password == "Bhandina"
 }
 
 func (creds *Credentials) GetJwt() (string, error) {
