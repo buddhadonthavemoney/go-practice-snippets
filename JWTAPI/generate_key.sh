@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Length of the secret key
-KEY_LENGTH=64
+KEY_LENGTH=32
 
 # Generate a complex JWT secret key using openssl
 JWT_SECRET_KEY=$(openssl rand -base64 $KEY_LENGTH)
